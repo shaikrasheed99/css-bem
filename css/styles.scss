@@ -27,6 +27,23 @@ body {
             margin: 0;
             padding: 0;
             padding-top: 1em;
+
+            &__item {
+                background: rgb(230, 230, 230);
+                border-radius: 0.5em;
+                font-size: 1.2em;
+                padding: 0.5em 0.5em;
+                margin-right: 1em;
+
+                &:hover {
+                    background-color: cadetblue;
+                }
+
+                &--active {
+                    background: #d4d4d4;
+                    font-weight: bold;
+                }
+            }
         }
     }
 }
