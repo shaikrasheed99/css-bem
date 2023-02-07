@@ -19,5 +19,14 @@ body {
     &__content {
         background-color: white;
         padding: 0 1em;
+
+        &__list {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            padding-top: 1em;
+        }
     }
 }

@@ -18,4 +18,12 @@ body {
 .card__content {
   background-color: white;
   padding: 0 1em;
+}
+.card__content__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
 }/*# sourceMappingURL=styles.css.map */
