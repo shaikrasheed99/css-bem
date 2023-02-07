@@ -8,4 +8,10 @@ body {
 .card {
   margin-top: 10em;
   padding: 0 5em;
+}
+.card__title {
+  background-color: rgba(17, 51, 17, 0.2);
+  padding: 0.3em;
+  margin: 0;
+  color: teal;
 }/*# sourceMappingURL=styles.css.map */
